@@ -21,6 +21,20 @@ textarea{
   border-bottom: 10px solid black;
 }
 
+.deleteBtn {
+  border-left: 1px solid black;
+  border-radius: 15px;
+  font-size: x-large;
+  background-color: #06AED5;
+  color: white;
+  padding: 5px;
+}
+
+.deleteBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
 .description{
   white-space: pre-wrap;
 }
