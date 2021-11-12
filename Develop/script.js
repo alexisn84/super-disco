@@ -27,6 +27,8 @@ var date = setInterval(function() {
     $('#presentDate').html(currentDate + " " + thisMoment.format('hh:mm:ss A'));
 }, 100);
 
+
+
 //retrieve stored items and print onto page when loaded
 function retrievePage() {
 
@@ -82,6 +84,7 @@ function colorCoded () {
     });
 }
 
+//upon page load pull stored tasks and color code time blocks pending time of day
 $(document).ready(function() {
     retrievePage()
     colorCoded()
@@ -95,14 +98,10 @@ $(".saveBtn").on("click", function() {
     localStorage.setItem(time, JSON.stringify(apptInput));
 
 })
-  // Button for clear the day
-$("#clearDay").on("click", function() {
-    localStorage.clear();
-    retrivePage()
-    // console.log("#clearday");
-}) 
-
 });
-
-
-//comparing code
+  // Button for clear the day
+// $("#clearDay").on("click", function() {
+//     localStorage.clear();
+//     retrivePage()
+//     // console.log("#clearday");
+// }) 
