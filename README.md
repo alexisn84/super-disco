@@ -11,7 +11,7 @@ https://alexisn84.github.io/super-disco/
 https://github.com/alexisn84/super-disco
 
 ## Images
-https://github.com/alexisn84/super-disco/blob/main/Develop/Picture1.jpg
+<img src="https://github.com/alexisn84/super-disco/blob/main/Develop/Picture1.jpg" alt="view of calender with time slots"/>
 
 
 ## Contributors
