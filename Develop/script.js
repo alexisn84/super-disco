@@ -29,39 +29,39 @@ var date = setInterval(function() {
 
 
 
-//retrieve stored items and print onto page when loaded
+//retrieve stored items 
 function retrievePage() {
 
     console.log("Current Hour " + hour);
 
-    var retrieve9 = JSON.parse(localStorage.getItem("09:00 am"));
+    var retrieve9 = JSON.parse(localStorage.getItem("09:00am"));
     nine.val(retrieve9);
 
-    var retrieve10 = JSON.parse(localStorage.getItem("10:00 am"))
+    var retrieve10 = JSON.parse(localStorage.getItem("10:00am"))
     ten.val(retrieve10);
     
-    var retrieve11 = JSON.parse(localStorage.getItem("11:00 am"))
+    var retrieve11 = JSON.parse(localStorage.getItem("11:00am"))
     eleven.val(retrieve11);
     
-    var retrieve12 = JSON.parse(localStorage.getItem("12:00 pm"))
+    var retrieve12 = JSON.parse(localStorage.getItem("12:00pm"))
     twelve.val(retrieve12);
     
-    var retrieve1 = JSON.parse(localStorage.getItem("01:00 pm"))
+    var retrieve1 = JSON.parse(localStorage.getItem("01:00pm"))
     one.val(retrieve1);
     
-    var retrieve2 = JSON.parse(localStorage.getItem("02:00 pm"))
+    var retrieve2 = JSON.parse(localStorage.getItem("02:00pm"))
     two.val(retrieve2);
     
-    var retrieve3 = JSON.parse(localStorage.getItem("03:00 pm"))
+    var retrieve3 = JSON.parse(localStorage.getItem("03:00pm"))
     three.val(retrieve3);
 
-    var retrieve4 = JSON.parse(localStorage.getItem("04:00 pm"))
+    var retrieve4 = JSON.parse(localStorage.getItem("04:00pm"))
     four.val(retrieve4);
     
-    var retrieve5 = JSON.parse(localStorage.getItem("05:00 pm"))
+    var retrieve5 = JSON.parse(localStorage.getItem("05:00pm"))
     five.val(retrieve5);
     
-    var retrieve6 = JSON.parse(localStorage.getItem("06:00 pm"))
+    var retrieve6 = JSON.parse(localStorage.getItem("06:00pm"))
     six.val(retrieve6);
 }
 
