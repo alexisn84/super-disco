@@ -100,8 +100,8 @@ $(".saveBtn").on("click", function() {
 })
 });
   // Button for clear the day
-// $("#clearDay").on("click", function() {
-//     localStorage.clear();
-//     retrivePage()
-//     // console.log("#clearday");
-// }) 
+$("#deleteAll").on("click", function() {
+    localStorage.clear();
+    retrievePage()
+    console.log("#deleteAll");
+}) 
